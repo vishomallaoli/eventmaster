@@ -1,0 +1,100 @@
+/* Venue List Page Styles */
+
+/* General page layout */
+.venueListContainer {
+  padding: 20px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* List of venues */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual venue list item */
+li {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  position: relative;
+}
+
+/* Horizontal line separator */
+li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin-top: 20px;
+}
+
+/* Hover effect for the venue items */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Link styling for venue names */
+a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0070f3;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Features and location */
+p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Styling for the features section */
+.venueFeatures {
+  font-style: italic;
+  color: #444;
+}
+
+/* Styling for the location */
+.venueLocation {
+  color: #333;
+}
+
+/* Button styling for reservations */
+.reserveButton {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.reserveButton:hover {
+  background-color: #005bb5;
+}
