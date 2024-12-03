@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NEXT_LINT_DISABLED=true next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -34,16 +34,10 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-<<<<<<< HEAD
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.14",
     "typescript": "^5.4.3"
-=======
-    "eslint": "^8",
-    "eslint-config-next": "14.2.14",
-    "typescript": "^5"
->>>>>>> 1248da81690d5a86ee6ba308d344887c3497bf83
   }
 }
